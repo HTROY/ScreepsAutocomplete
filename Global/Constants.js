@@ -1469,7 +1469,7 @@ const NUKER_COOLDOWN = 100000;
  * @constant
  * @type {number}
  */
-const NUKER_ENERGY_CAPACITY = 5000;
+const NUKER_ENERGY_CAPACITY = 300000;
 
 /**
  * @constant
@@ -1487,7 +1487,7 @@ const NUKE_LAND_TIME = 50000;
  * @constant
  * @type {number}
  */
-const NUKE_RANGE = 5;
+const NUKE_RANGE = 10;
 
 /**
  * @constant
@@ -1495,8 +1495,7 @@ const NUKE_RANGE = 5;
  */
 const NUKE_DAMAGE = {
     0: 10000000,
-    1: 1000000,
-    4: 100000
+    2: 5000000
 };
 
 /**
@@ -1691,6 +1690,12 @@ const CONTROLLER_ATTACK_BLOCKED_UPGRADE = 1000;
  * @constant
  * @type {number}
  */
+const CONTROLLER_NUKE_BLOCKED_UPGRADE = 200;
+
+/**
+ * @constant
+ * @type {number}
+ */
 const TERMINAL_CAPACITY = 300000;
 
 /**
@@ -1775,7 +1780,7 @@ const OBSERVER_HITS = 500;
  * @constant
  * @type {number}
  */
-const OBSERVER_RANGE = 5;
+const OBSERVER_RANGE = 10;
 
 /**
  * @constant
@@ -1982,3 +1987,21 @@ const LOOK_NUKES = "nuke";
  * @type {string}
  */
 const LOOK_TERRAIN = "terrain";
+
+/**
+ * @constant
+ * @type {string}
+ */
+const SYSTEM_USERNAME = 'Screeps';
+
+/**
+ * @constant
+ * @type {string}
+ */
+const SIGN_NOVICE_AREA = 'A new Novice Area is being planned somewhere in this sector. Please make sure all important rooms are reserved.';
+
+/**
+ * @constant
+ * @type {string}
+ */
+const SIGN_RESPAWN_AREA = 'A new Respawn Area is being planned somewhere in this sector. Please make sure all important rooms are reserved.';
